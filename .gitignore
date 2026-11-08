@@ -1,0 +1,18 @@
+# env / tooling
+.venv/
+.playwright-mcp/
+.DS_Store
+
+# third-party upscaler binaries (Real-ESRGAN) — re-download
+tools/
+
+# generated upscale intermediates (8GB+)
+up/a/
+up/b/
+up/c/
+up/bench/
+up/test/
+up/log_*.txt
+
+# intermediate frames (591MB)
+work/

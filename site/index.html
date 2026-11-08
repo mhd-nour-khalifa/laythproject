@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>INNO Missions — Connect, Innovate, Progress Together</title>
+<meta name="description" content="INNO Missions — telematics & fleet optimization, Digital Transformation & IIoT, hands-on consultancy and AI-enabled business. Riyadh, Saudi Arabia.">
+<meta name="theme-color" content="#0b0814">
+<meta property="og:title" content="INNO Missions — Connect, Innovate, Progress Together">
+<meta property="og:description" content="Telematics, IIoT, consultancy and AI — from Riyadh, for the Kingdom.">
+<meta property="og:image" content="assets/og.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/ic_logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="ld-curtain t"></div><div class="ld-curtain b"></div>
+  <div class="ld-mid">
+    <img class="ld-logo-full" src="assets/logo.svg" alt="INNO Missions">
+    <div class="ld-bar"><i id="ldFill"></i></div>
+  </div>
+  <div class="ld-txt mono">Loading</div>
+  <div class="ld-num mono"><span id="ldPct">0</span></div>
+</div>
+
+<!-- HEADER -->
+<header class="top">
+  <a class="brand" href="#top" aria-label="INNO Missions home">
+    <img src="assets/logo.svg" alt="INNO Missions">
+  </a>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#usecases">Use cases</a>
+    <button id="lang" class="lang mono" type="button">عربي</button>
+    <a href="#contact" class="cta">Get In Touch</a>
+  </nav>
+</header>
+
+<!-- FILM: one sticky stage, scroll drives three merged videos -->
+<section id="film" aria-label="The INNO Missions journey">
+  <div class="stage">
+    <canvas id="cv"></canvas>
+    <canvas id="hud"></canvas>
+    <div class="fx-vignette"></div>
+    <div class="fx-grain"></div>
+    <div class="fx-bars"><i></i><i></i></div>
+
+    <!-- chapter rail -->
+    <ol class="rail mono">
+      <li data-ch="0"><span>01</span> The Road</li>
+      <li data-ch="1"><span>02</span> The Cargo</li>
+      <li data-ch="2"><span>03</span> The Cab</li>
+      <li data-ch="3"><span>04</span> The Mission</li>
+    </ol>
+    <div class="prog"><i id="progFill"></i></div>
+    <button id="snd" class="snd mono" aria-pressed="false" aria-label="Toggle sound"><span class="eq"><i></i><i></i><i></i><i></i></span><b>Sound off</b></button>
+
+    <!-- ===== SCENE A — THE ROAD ===== -->
+    <div class="ov hero" data-r="-1,-1,0.035,0.075">
+      <p class="eyebrow">INNO Missions · Riyadh, Saudi Arabia</p>
+      <h1>Connect, innovate,<br>progress together.</h1>
+      <p class="lead">Telematics, IIoT, consultancy and AI — helping organisations across the Kingdom run smarter, safer and greener.</p>
+      <div class="hcta"><a href="#services" class="btn">Explore services</a><a href="#contact" class="btn ghost">Get in touch</a></div>
+    </div>
+
+    <div class="ov side left" data-r="0.085,0.105,0.165,0.185">
+      <p class="kicker mono">Telematics &amp; Fleet Optimization</p>
+      <h2>Real-time visibility<br>for <em>every vehicle.</em></h2>
+      <p>From real-time GPS tracking to advanced fleet optimization — whether you're managing 10 vehicles or 10,000.</p>
+    </div>
+
+    <div class="ov side right" data-r="0.19,0.21,0.27,0.29">
+      <p class="kicker mono">What you get</p>
+      <ul class="ticks">
+        <li><b>Fleet efficiency</b> — less idle, smarter routes</li>
+        <li><b>Green choices</b> — lower fuel, lower emissions</li>
+        <li><b>Enhanced safety</b> — driver behavior insights</li>
+        <li><b>Compliance assurance</b> — hours of service, logged</li>
+        <li><b>Growth-ready</b> — scales with your fleet</li>
+      </ul>
+    </div>
+
+    <div class="ov side left low" data-r="0.205,0.22,0.27,0.285">
+      <p class="kicker mono">Digital Transformation &amp; IIoT</p>
+      <h2>Turn your operations<br>into <em>live data.</em></h2>
+      <p>A digital twin of your operation — one data model over MQTT &amp; OPC UA, from the road to the factory floor.</p>
+    </div>
+
+    
+    
+
+    
+
+    <div class="ov hint" data-r="0.6,0.61,0.643,0.653"><i></i>Move your cursor to light the way</div>
+    <div class="ov hint" data-r="0.692,0.702,0.726,0.742"><i></i>Find the driver</div>
+
+    <div class="ov center q" data-r="0.295,0.31,0.335,0.345">
+      <h2>So, what's <em>inside?</em></h2>
+    </div>
+
+    <!-- ===== SCENE B — THE CARGO ===== -->
+    <div class="ov side left" data-r="0.35,0.365,0.41,0.425">
+      <p class="kicker mono">Our services</p>
+      <h2>Everything your<br>operation <em>needs.</em></h2>
+    </div>
+
+    <div class="cargo" data-r="0.42,0.43,0.62,0.635">
+      <article class="crate" data-i="0" data-side="L">
+        <span class="num mono">01</span>
+        <h3>Telematics &amp; Fleet Optimization</h3>
+        <p>GPS & asset tracking, Hours of Service, Journey Management, Driver Behavior, in-cab cameras.</p>
+        <span class="tag mono">10 → 10,000 vehicles</span>
+      </article>
+      <article class="crate" data-i="1" data-side="R">
+        <span class="num mono">02</span>
+        <h3>Digital Transformation &amp; IIoT</h3>
+        <p>IoT platforms, MES smart factory, predictive maintenance, energy monitoring, RTLS, supply-chain AI.</p>
+        <span class="tag mono">Industry 4.0 ready</span>
+      </article>
+      <article class="crate" data-i="2" data-side="L">
+        <span class="num mono">03</span>
+        <h3>Hands-on Consultancy</h3>
+        <p>Workshops & facilitation — LEGO® SERIOUS PLAY®, value-congruence mapping, scenario planning. We don't just advise — we co-create.</p>
+        <span class="tag mono">Co-create, don't dictate</span>
+      </article>
+      <article class="crate" data-i="3" data-side="R">
+        <span class="num mono">04</span>
+        <h3>AI-Enabled Business</h3>
+        <p>Generative-AI training, LLM assessments, from AI assistants to autonomous agents, rapid MVP prototyping.</p>
+        <span class="tag mono">Assistants → Agents</span>
+      </article>
+    </div>
+
+    <!-- ===== BRIDGE — THROUGH THE WALL ===== -->
+    <div class="burst" data-r="0.648,0.66,0.676,0.69">
+      <svg id="burstLogo" viewBox="0 0 92.576 102.6" aria-hidden="true"><g class="lp"><path d="M25.568,62.2a8.134,8.134,0,0,1-8.215-12.844,9.228,9.228,0,0,1,5.4-3.217c1.414-.346,2.8-.194,4.039-1.052a18.566,18.566,0,0,0,2.584-2.251,53.264,53.264,0,0,0,6.6-8.684,6.782,6.782,0,0,0,.982-5.453,8.171,8.171,0,1,1,7.714,5.774,6.122,6.122,0,0,0-4.954,2.48l-.02.022c-1.878,2.167-4.729,5.8-6.922,8.788A6.846,6.846,0,0,0,31.749,51.6a8.76,8.76,0,0,1,.241,1.854c.1,3.941-2.367,7.9-6.421,8.747" transform="translate(-15.713 17.33)" fill="#89ddff"/></g>
+<g class="lp"><path d="M40.741,15.568a8.675,8.675,0,0,0,1.727.718,6.854,6.854,0,0,1,4.543,3.808c1.49,3.393,3.211,7.681,4.148,10.389l.01.027a6.126,6.126,0,0,1-.331,5.531,8.392,8.392,0,0,0-.7,1.524,8.171,8.171,0,1,0,11.148-4.774,8.378,8.378,0,0,0-1.588-.544,6.791,6.791,0,0,1-4.23-3.577,53.407,53.407,0,0,1-4.221-10.059,18.634,18.634,0,0,1-.655-3.362c-.127-1.5.7-2.627,1.107-4.025a9.241,9.241,0,0,0-.086-6.282,8.135,8.135,0,0,0-15.232.692c-1.295,3.933.9,8.046,4.363,9.934" transform="translate(3.679 0)" fill="#674edf"/></g>
+<g class="lp"><path d="M53.122,28a7.951,7.951,0,0,1-.964-1.359,6.153,6.153,0,0,0-4.635-3.061H47.5c-2.807-.546-7.391-1.193-11.074-1.6a6.8,6.8,0,0,0-5.562,2.032,8.448,8.448,0,0,1-1.486,1.13c-3.364,2.058-8.025,1.9-10.781-1.193A8.119,8.119,0,0,1,25.6,10.426a9.183,9.183,0,0,1,5.486,3.061c1,1.054,1.574,2.335,2.934,2.971a18.271,18.271,0,0,0,3.237,1.117,54.045,54.045,0,0,0,10.82,1.373,6.819,6.819,0,0,0,5.22-1.88,8.011,8.011,0,0,1,1.258-1.105A8.172,8.172,0,1,1,53.122,28" transform="translate(-14.964 9.906)" fill="#ffcb72"/></g>
+<g class="lp"><path d="M44.041,48.42a8.2,8.2,0,0,1,6.566-8.66,9.556,9.556,0,0,1,1.676-.153,6.12,6.12,0,0,0,4.952-2.476l.014-.025c1.88-2.159,4.735-5.8,6.933-8.788A6.875,6.875,0,0,0,65.2,22.476a10.241,10.241,0,0,1-.241-1.854c-.09-3.937,2.374-7.9,6.425-8.737A8.131,8.131,0,0,1,79.6,24.723a9.145,9.145,0,0,1-5.4,3.213c-1.41.356-2.807.2-4.039,1.054a19.8,19.8,0,0,0-2.591,2.247,53,53,0,0,0-6.589,8.686,6.782,6.782,0,0,0-.992,5.461,7.708,7.708,0,0,1,.331,1.639,8.17,8.17,0,1,1-16.28,1.4" transform="translate(11.338 11.189)" fill="#89ddff"/></g>
+<g class="lp"><path d="M85.076,38.493a8.137,8.137,0,0,1-7.023,13.536,9.261,9.261,0,0,1-5.484-3.073c-1-1.054-1.563-2.324-2.934-2.971A18.315,18.315,0,0,0,66.4,44.88,52.965,52.965,0,0,0,55.576,43.5a6.789,6.789,0,0,0-5.206,1.88,8.176,8.176,0,1,1,.164-10.933,8.436,8.436,0,0,1,.978,1.371,6.12,6.12,0,0,0,4.624,3.047h.025c2.818.546,7.391,1.207,11.072,1.614A6.872,6.872,0,0,0,72.8,38.442,9.757,9.757,0,0,1,74.282,37.3c3.366-2.058,8.027-1.893,10.794,1.193" transform="translate(3.878 30.249)" fill="#ffcb72"/></g>
+<g class="lp"><path d="M52.7,60.537a8.792,8.792,0,0,0-1.727-.718,6.854,6.854,0,0,1-4.543-3.808c-1.49-3.393-3.211-7.681-4.148-10.389l-.01-.027a6.126,6.126,0,0,1,.331-5.531,8.393,8.393,0,0,0,.7-1.524,8.171,8.171,0,1,0-11.148,4.774,8.377,8.377,0,0,0,1.588.544,6.791,6.791,0,0,1,4.23,3.577,53.406,53.406,0,0,1,4.221,10.059,18.634,18.634,0,0,1,.655,3.362c.127,1.5-.7,2.627-1.107,4.025a9.241,9.241,0,0,0,.086,6.282A8.135,8.135,0,0,0,57.06,70.47c1.295-3.933-.9-8.046-4.363-9.934" transform="translate(-4.541 26.496)" fill="#674edf"/></g>
+<g class="lp"><path d="M56.846,42.582a5.851,5.851,0,1,0-2.668,7.833,5.852,5.852,0,0,0,2.668-7.833" transform="translate(12.99 37.576)" fill="#674edf"/></g>
+<g class="lp"><path d="M36.924,47.122a5.851,5.851,0,1,0-8.117,1.606,5.852,5.852,0,0,0,8.117-1.606" transform="translate(-5.681 36.335)" fill="#674edf"/></g>
+<g class="lp"><path d="M23.031,32.138a5.851,5.851,0,1,0-5.451-6.225,5.849,5.849,0,0,0,5.451,6.225" transform="translate(-13.941 19.545)" fill="#674edf"/></g>
+<g class="lp"><path d="M29.061,12.615a5.851,5.851,0,1,0,2.668-7.833,5.852,5.852,0,0,0-2.668,7.833" transform="translate(-3.53 3.995)" fill="#674edf"/></g>
+<g class="lp"><path d="M48.984,8.076A5.851,5.851,0,1,0,57.1,6.47a5.85,5.85,0,0,0-8.115,1.606" transform="translate(15.141 5.237)" fill="#674edf"/></g>
+<g class="lp"><path d="M62.875,23.058a5.851,5.851,0,1,0,5.451,6.225,5.849,5.849,0,0,0-5.451-6.225" transform="translate(23.402 22.027)" fill="#674edf"/></g></svg>
+      <p class="burst-txt"><span>Connect.</span> <span>Innovate.</span> <span>Progress Together.</span></p>
+    </div>
+
+    <!-- ===== SCENE C — THE CAB ===== -->
+    <div class="ov side left" data-r="0.715,0.73,0.785,0.80">
+      <p class="kicker mono">Driver safety</p>
+      <h2>Safer drivers,<br><em>safer roads.</em></h2>
+      <p>Drive Mate assistant, in-cab driver feedback, voice kits, driver ID and panic buttons — the hardware that keeps people safe.</p>
+    </div>
+
+    <div class="chips" data-r="0.80,0.815,0.885,0.90">
+      <div class="chip mono" style="--x:6%;--y:22%"><small>Hours of Service</small><b id="hos">06:42</b><i class="bar"><s style="width:61%"></s></i></div>
+      <div class="chip mono" style="--x:72%;--y:16%"><small>Driver Behavior</small><b>94<em>/100</em></b><i class="bar"><s style="width:94%"></s></i></div>
+      <div class="chip mono" style="--x:68%;--y:62%"><small>Journey · ETA</small><b id="eta">02:18</b><em class="dim">Riyadh → Dammam</em></div>
+      <div class="chip mono rec" style="--x:8%;--y:64%"><small>In-vehicle camera</small><b><i class="dot"></i>REC</b><em class="dim">AI events: 0</em></div>
+    </div>
+
+    <!-- ===== FINALE — INTO THE DASHCAM ===== -->
+    <div id="screen" aria-hidden="true"><canvas id="dcam"></canvas></div>
+  </div>
+</section>
+
+<!-- ROUTE — scroll drives a live trip Riyadh -> Dammam -->
+<section id="route" aria-label="Live route Riyadh to Dammam">
+  <div class="rstage">
+    <svg id="map" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <defs>
+        <linearGradient id="rgrad" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#89ddff"/><stop offset=".55" stop-color="#674edf"/><stop offset="1" stop-color="#ffcb72"/></linearGradient>
+        <radialGradient id="sea" cx=".85" cy=".1" r=".5"><stop offset="0" stop-color="#1b3a6b" stop-opacity=".75"/><stop offset="1" stop-color="#0b0814" stop-opacity="0"/></radialGradient>
+        <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="rgba(255,255,255,.09)"/></pattern>
+        <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      </defs>
+      <g id="world">
+        <rect x="-500" y="-400" width="2000" height="1400" fill="url(#dots)"/>
+        <path d="M760 -100 C 820 60, 900 120, 1100 140 L 1100 -100 Z" fill="url(#sea)"/>
+        <path d="M770 -60 C 830 70, 900 120, 1100 135" fill="none" stroke="rgba(137,221,255,.35)" stroke-width="1.2"/>
+        <text x="930" y="60" class="mlabel sea">ARABIAN GULF</text>
+        <g class="dunes" fill="none" stroke="rgba(255,203,114,.10)" stroke-width="1">
+          <path d="M-100 560 C 100 520, 200 600, 400 560 S 700 520, 1100 570"/>
+          <path d="M-100 380 C 120 340, 260 420, 420 390 S 620 330, 800 360"/>
+          <path d="M60 240 C 180 200, 300 260, 420 230 S 560 180, 640 210"/>
+          <path d="M300 640 C 420 600, 560 650, 700 610 S 900 560, 1100 600"/>
+        </g>
+        <path id="rbase" d="M180 470 C 300 455, 330 370, 430 345 S 600 310, 655 255 S 780 175, 842 148" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+        <path id="rprog" d="M180 470 C 300 455, 330 370, 430 345 S 600 310, 655 255 S 780 175, 842 148" fill="none" stroke="url(#rgrad)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+        <g class="cities">
+          <circle cx="180" cy="470" r="7" fill="#89ddff"/><circle cx="180" cy="470" r="16" fill="none" stroke="#89ddff" stroke-opacity=".4"/>
+          <text x="180" y="505" class="mlabel big" text-anchor="middle" data-i18n-svg="riyadh">RIYADH</text>
+          <circle cx="842" cy="148" r="7" fill="#ffcb72"/><circle cx="842" cy="148" r="16" fill="none" stroke="#ffcb72" stroke-opacity=".4"/>
+          <text x="842" y="118" class="mlabel big" text-anchor="middle" data-i18n-svg="dammam">DAMMAM</text>
+        </g>
+        <g id="cps"></g>
+        <g id="truck">
+          <circle r="22" class="tpulse"/>
+          <g class="tbody"><rect x="-17" y="-6.5" width="25" height="13" rx="2" fill="#f6f1ea"/><rect x="9" y="-6" width="9" height="12" rx="2.5" fill="#674edf"/><rect x="15" y="-4.5" width="2" height="9" rx="1" fill="#89ddff"/></g>
+        </g>
+      </g>
+    </svg>
+    <div class="rvig"></div>
+    <div class="rhead">
+      <p class="kicker mono">Live tracking</p>
+      <h2>Follow every trip<br><em>in real time.</em></h2>
+    </div>
+    <div class="rstats mono">
+      <div><small>Distance</small><b><span id="rkm">0</span> km</b></div>
+      <div><small>ETA</small><b id="reta">04:10</b></div>
+      <div><small>Speed</small><b><span id="rspd">0</span> km/h</b></div>
+      <div><small>Driver score</small><b id="rscore">—</b></div>
+    </div>
+    <div class="revents mono" id="revents"></div>
+    <p class="rnote mono">Illustrative demo trip</p>
+  </div>
+</section>
+
+<!-- MANIFESTO — words light up as you scroll -->
+<section id="manifesto" aria-label="Our philosophy" class="light">
+  <div class="mstage">
+    <p class="kicker mono">Our philosophy</p>
+    <p class="mtext" id="mtext">We put people first. We help fleets, factories and communities across Saudi Arabia work smarter, safer and greener — and we stay with you as you grow.</p>
+    
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section id="impact" class="sec" aria-label="Impact">
+  <div class="shead">
+    <p class="kicker mono">Impact</p>
+    <h2 class="big rv">Results that <em>matter.</em></h2>
+  </div>
+  <div class="stats">
+    <div class="stat rv"><b><span class="cnt" data-to="10000" data-fmt="k">0</span></b><p>vehicles — the scale our telematics is built for, from your first 10.</p></div>
+    <div class="stat rv"><b>≤<span class="cnt" data-to="70">0</span>%</b><p>less unplanned downtime with predictive maintenance &amp; quality.</p></div>
+    <div class="stat rv"><b>≈<span class="cnt" data-to="25">0</span>%</b><p>lower energy cost with energy monitoring &amp; sustainability.</p></div>
+    <div class="stat rv"><b>≤<span class="cnt" data-to="20">0</span>%</b><p>lower logistics cost through Industry 4.0 &amp; data maturity.</p></div>
+  </div>
+  <p class="fine mono">Ranges are industry benchmarks referenced by Inno Missions. Results vary by operation.</p>
+</section>
+
+<!-- SERVICES — pinned horizontal journey -->
+<section id="services" aria-label="Services" class="light">
+  <div class="hstage">
+    <div class="hhead">
+      <p class="kicker mono">Our services</p>
+      <h2 class="big">Four missions.<br><em>One partner.</em></h2>
+    </div>
+    <div class="htrack" id="htrack">
+      <article class="panel">
+        <div class="pimg"><img src="frames/hd/a/0075.webp" alt="White truck on a desert highway at sunset" loading="lazy"></div>
+        <div class="pbody"><span class="pnum mono">01</span><h3>Telematics &amp; Fleet Optimization</h3>
+          <p>From basic GPS to advanced fleet optimization — whether you're managing 10 vehicles or 10,000.</p>
+          <ul class="mono"><li>Hours of Service</li><li>Journey Management</li><li>Driver Behavior</li><li>In-cab cameras &amp; Drive Mate</li></ul>
+          <a class="plink" href="https://innomissions.ai/our-services" target="_blank" rel="noopener">Explore →</a></div>
+      </article>
+      <article class="panel">
+        <div class="pimg"><img src="frames/hd/b/0100.webp" alt="Inside an empty cargo container" loading="lazy"></div>
+        <div class="pbody"><span class="pnum mono">02</span><h3>Digital Transformation &amp; IIoT</h3>
+          <p>One data model across your plant — from the sensor to the boardroom.</p>
+          <ul class="mono"><li>IIoT platform · MQTT / OPC UA</li><li>MES smart factory</li><li>Predictive maintenance</li><li>Energy &amp; RTLS asset tracking</li></ul>
+          <a class="plink" href="https://innomissions.ai/our-services" target="_blank" rel="noopener">Explore →</a></div>
+      </article>
+      <article class="panel">
+        <div class="pimg"><img src="frames/hd/c/0060.webp" alt="Truck driver at the wheel" loading="lazy"></div>
+        <div class="pbody"><span class="pnum mono">03</span><h3>Hands-on Consultancy</h3>
+          <p>We don't hand over slide decks. We sit at your table and co-create.</p>
+          <ul class="mono"><li>LEGO® SERIOUS PLAY®</li><li>Value-congruence mapping</li><li>Scenario planning</li><li>Workshops &amp; facilitation</li></ul>
+          <a class="plink" href="https://innomissions.ai/our-services" target="_blank" rel="noopener">Explore →</a></div>
+      </article>
+      <article class="panel">
+        <div class="pimg"><img src="frames/hd/c/0140.webp" alt="Dashcam mounted on a truck windshield" loading="lazy"></div>
+        <div class="pbody"><span class="pnum mono">04</span><h3>AI-Enabled Business</h3>
+          <p>From AI assistants to autonomous agents — with your people trained to lead them.</p>
+          <ul class="mono"><li>Generative-AI training</li><li>LLM assessments</li><li>Agentic workflows</li><li>Rapid MVP prototyping</li></ul>
+          <a class="plink" href="https://innomissions.ai/our-services" target="_blank" rel="noopener">Explore →</a></div>
+      </article>
+    </div>
+    <div class="hprog"><i id="hprog"></i></div>
+  </div>
+</section>
+
+<!-- PILLARS -->
+<section id="pillars" class="light sec" aria-label="Philosophy">
+  <div class="pillars">
+    <div class="pillar rv" style="--c:#674edf"><span class="pdot"></span><h3>Human First</h3><p>People before platforms. Every system we build starts with the person who uses it.</p></div>
+    <div class="pillar rv" style="--c:#89ddff"><span class="pdot"></span><h3>Connected Communities</h3><p>Fleets, factories, municipalities and academia — stronger when they share one language of data.</p></div>
+    <div class="pillar rv" style="--c:#ffcb72"><span class="pdot"></span><h3>Adaptive Intelligence</h3><p>AI that learns with your organisation — and teams that learn to lead it.</p></div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="light sec" aria-label="Why choose us">
+  <div class="shead"><p class="kicker mono">Why choose us</p><h2 class="big rv">A partner for the <em>whole journey.</em></h2></div>
+  <ol class="rows">
+    <li class="row rv"><span class="mono">01</span><h4>Cutting-edge solutions</h4><p>Telematics, IIoT and AI built on modern, standards-based platforms.</p></li>
+    <li class="row rv"><span class="mono">02</span><h4>Committed support</h4><p>Hands-on teams in Riyadh, with you from pilot to full rollout.</p></li>
+    <li class="row rv"><span class="mono">03</span><h4>Universal applications</h4><p>Logistics, oil &amp; gas, manufacturing, municipalities, retail and more.</p></li>
+    <li class="row rv"><span class="mono">04</span><h4>Knowledge authority</h4><p>Security-by-design, aligned with IEC/ISA 62443 and ISO/IEC 27001.</p></li>
+    <li class="row rv"><span class="mono">05</span><h4>Lifetime ally</h4><p>Human first. We co-evolve with your people, not just your tech.</p></li>
+  </ol>
+</section>
+
+<!-- USE CASES -->
+<section id="usecases" class="light sec" aria-label="Use cases">
+  <div class="shead"><p class="kicker mono">Use cases</p><h2 class="big rv">Proven across <em>industries.</em></h2></div>
+  <ul class="cases" id="cases">
+    <li data-img="frames/hd/a/0050.webp"><span class="mono">01</span><b>Modernizing Fleet Management with Advanced Telematics</b><i class="mono">Logistics</i></li>
+    <li data-img="frames/hd/a/0120.webp"><span class="mono">02</span><b>Telematics for Food &amp; Beverage Delivery Excellence</b><i class="mono">F&amp;B</i></li>
+    <li data-img="frames/hd/a/0010.webp"><span class="mono">03</span><b>Oil &amp; Gas Safety and Sustainability in KSA</b><i class="mono">Energy</i></li>
+    <li data-img="frames/hd/b/0080.webp"><span class="mono">04</span><b>Revolutionizing Saudi Manufacturing with IIoT</b><i class="mono">Industry</i></li>
+    <li data-img="frames/hd/c/0030.webp"><span class="mono">05</span><b>Digital Transformation for Saudi Family Businesses</b><i class="mono">Family business</i></li>
+    <li data-img="frames/hd/b/0030.webp"><span class="mono">06</span><b>Digital Transformation &amp; Sustainability Standards</b><i class="mono">Industry</i></li>
+    <li data-img="frames/hd/a/0140.webp"><span class="mono">07</span><b>Leading Smart Transformation in Saudi Municipalities</b><i class="mono">Government</i></li>
+    <li data-img="frames/hd/c/0100.webp"><span class="mono">08</span><b>Academia × Entrepreneurship Collaboration in KSA</b><i class="mono">Academia</i></li>
+  </ul>
+  <div class="cprev" id="cprev" aria-hidden="true"><img alt=""></div>
+</section>
+
+<!-- SECTORS band -->
+<section id="sectors" aria-label="Sectors">
+  <div class="marquee"><div class="mq-track">
+    <span>Logistics</span><span>Oil &amp; Gas</span><span>Manufacturing</span><span>Family Business</span><span>Academia</span><span>Industry Associations</span><span>Municipalities</span><span>NGOs</span><span>Government</span>
+  </div></div>
+  <p class="group mono">Part of the Ahmed Salem Bugshan Group · Building toward Saudi Vision 2030</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="light sec contact">
+  <div>
+    <p class="kicker mono">Contact us</p>
+    <h2 class="huge rv">Let's work<br><em>together.</em></h2>
+    <p class="muted">Partnership opportunities, ideas and feedback — we'd love to hear from you.</p>
+    <ul class="ways">
+      <li><a href="mailto:info@innomissions.ai">info@innomissions.ai</a></li>
+      <li><a href="https://api.whatsapp.com/send?phone=966573513508" target="_blank" rel="noopener">WhatsApp · +966 57 351 3508</a></li>
+    </ul>
+  </div>
+  <form id="form" class="form rv">
+    <label>Name<input name="name" required autocomplete="name"></label>
+    <label>Email<input name="email" type="email" required autocomplete="email"></label>
+    <label>Service
+      <select name="service">
+        <option>Telematics &amp; Fleet Optimization</option>
+        <option>Digital Transformation &amp; IIoT</option>
+        <option>Hands-on Consultancy</option>
+        <option>AI-Enabled Business</option>
+      </select>
+    </label>
+    <label>Message<textarea name="msg" rows="4"></textarea></label>
+    <button class="btn mag" type="submit">Send Message →</button>
+  </form>
+</section>
+
+<footer class="foot">
+  <div class="fcols">
+    <div><img src="assets/logo.svg" alt="INNO Missions" class="flogo"><p class="fdesc">The digital arm of the Ahmed Salem Bugshan Group. Riyadh, Kingdom of Saudi Arabia.</p></div>
+    <div><h5 class="mono">Services</h5><a href="#services">Telematics &amp; Fleet</a><a href="#services">Digital Transformation &amp; IIoT</a><a href="#services">Consultancy</a><a href="#services">AI-Enabled Business</a></div>
+    <div><h5 class="mono">Company</h5><a href="https://innomissions.ai/about-us" target="_blank" rel="noopener">About</a><a href="https://innomissions.ai/events" target="_blank" rel="noopener">Events</a><a href="https://innomissions.ai/terms-conditions" target="_blank" rel="noopener">Terms</a><a href="https://innomissions.ai/privacy-policy" target="_blank" rel="noopener">Privacy</a></div>
+    <div><h5 class="mono">Follow</h5><a href="https://www.linkedin.com/company/101373597" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.instagram.com/innomissions.ai/" target="_blank" rel="noopener">Instagram</a><a href="https://x.com/innomissions_ai" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/innomissions" target="_blank" rel="noopener">Facebook</a></div>
+  </div>
+  <div class="fbot mono"><span>© 2026 INNO Missions</span><a href="#top" class="totop">Back to top ↑</a></div>
+</footer>
+
+<div id="cur" aria-hidden="true"><i></i><span class="mono"></span></div>
+<script src="js/track.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/sound.js"></script>
+<script src="js/route.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
